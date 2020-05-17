@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DoggiesFirstKeeyusPageComponent } from './doggies-first-keeyus-page/doggies-first-keeyus-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DoggiesFirstKeeyusPageComponent
   ],
   imports: [
     BrowserModule,
